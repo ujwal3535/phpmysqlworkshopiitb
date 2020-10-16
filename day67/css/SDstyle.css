@@ -1,0 +1,102 @@
+header{
+	position:absolute;
+	top: 0;
+	left:0;
+	padding: 0 100px;
+	background:skyblue;
+	width: 100%;
+	box-sizing:border-box;
+
+}
+header .logo{
+	color: white;
+	height:50px;
+	line-height: 50px;
+	font-size: 24px;
+	float: left;
+	font-weight: bold;
+}
+header nav{
+	float: right;
+}
+header nav ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+header nav ul li a{
+  height:50px;
+  line-height:50px;
+  padding:0 20px;
+  color:#fff;
+  text-decoration: none;
+  
+}
+header nav ul li a:hover,
+header nav ul li a.active{
+color:skyblue;
+background: white;
+
+}
+.menu-toggle{
+ color:white;
+ float:right;
+ line-height: 50px;
+ font-size: 24px;
+ cursor:pointer;
+ display:none;	
+}
+   ul{
+  list-style-type: none;
+  float:center;
+  margin-top:  0%;
+  margin-left: 10% ;
+  border-radius:5%;
+  line-height: 200%;
+  
+  border-width: 100%;
+  border:block 3% outset;
+
+}
+
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color:white;
+  padding:5% 10%;
+  border:3px solid transparent;
+  transition:0.6s ease;
+  background-color: black;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+} 
+ul li a:hover{
+  background-color:whitesmoke;
+  color: skyblue;
+}
+#tbstyle {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+#tbstyle td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tbstyle tr:nth-child(even){background-color: #f2f2f2;}
+
+#tbstyle tr:hover {background-color: #ddd;}
+
+#tbstyle th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+      }

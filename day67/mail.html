@@ -1,0 +1,66 @@
+<html>
+    <head>
+     <link rel="stylesheet" type="text/css" href="css/SDstyle.css">
+
+        <style>
+        .sse{
+	
+    font-style: italic;
+    color: skyblue;
+    margin-left: 100px;
+    margin-top: -10px; 
+    }
+#tbstyle {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+#tbstyle td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tbstyle tr:nth-child(even){background-color: #f2f2f2;}
+
+#tbstyle tr:hover {background-color: #ddd;}
+
+#tbstyle th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+      }
+        </style>
+    </head>
+    <body>
+          <header>
+               <div class='logo'>Student Dashboard</div>
+               <nav class='active'>
+        <ul align=''>
+             <li><a href='dashboard.php'  class='active'>Home</a></li>
+                
+             <li><a href='mail.html' align='left'>Email</a></li>         
+          <li><a href='logout.php' align='left'>Logout</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="form-row">
+    <div class="col form-group">
+      <label>Username </label>   
+        <input type="text" class="form-control" placeholder="" name="name">
+    </div> <!-- form-group end.// -->
+     <!-- form-group end.// -->
+  </div>
+  <form action="mail.php" method="post">
+  <div class="form-group">
+
+    <input type="email" style="margin-top: 50px; margin-left: 100px ;padding:10px 300px; " class="form-control" name="mail" placeholder="Enter email">
+    
+  </div>
+  <button type="submit" style="margin-top: -38px;color:green; margin-left: 900px ; padding:10px 30px; " class="btn btn-primary">Submit</button>
+</form>
+
+  </body>
+  </html>
